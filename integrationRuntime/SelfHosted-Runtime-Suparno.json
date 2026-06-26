@@ -1,0 +1,6 @@
+{
+	"name": "SelfHosted-Runtime-Suparno",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

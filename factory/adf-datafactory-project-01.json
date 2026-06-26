@@ -1,0 +1,15 @@
+{
+	"name": "adf-datafactory-project-01",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f4bb39da-a150-4bda-9935-adc5d8950d05",
+		"tenantId": "4f8a4856-5077-4603-921a-7d1b0e17b842"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"name": "source_airport_json_silver",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStoragePro",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DimAirport.json",
+				"folderPath": "github/anshlambagit/AnshLambaYoutube/refs/heads/main/ADF_Project",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
